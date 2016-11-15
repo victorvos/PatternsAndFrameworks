@@ -1,6 +1,4 @@
-package Opdracht1Receipt;
-
-import java.util.ArrayList;
+package Opdracht1ReceiptWeek1;
 
 /**
  * Created by Victor on 15-11-2016.

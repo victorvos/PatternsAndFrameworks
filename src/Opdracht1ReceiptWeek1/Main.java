@@ -1,4 +1,4 @@
-package Opdracht1Receipt;
+package Opdracht1ReceiptWeek1;
 
 /**
  * Created by Victor on 15-11-2016.

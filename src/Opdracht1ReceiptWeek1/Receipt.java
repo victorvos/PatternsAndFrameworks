@@ -1,4 +1,4 @@
-package Opdracht1Receipt;
+package Opdracht1ReceiptWeek1;
 
 import java.util.ArrayList;
 import java.util.Date;
