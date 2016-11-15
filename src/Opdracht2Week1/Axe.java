@@ -8,5 +8,4 @@ public class Axe implements Weapon {
     public void useWeapon(int strength) {
         System.out.println("Chop an axe and kill "+strength);
     }
-    3
 }

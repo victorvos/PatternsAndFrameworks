@@ -5,7 +5,7 @@ package Opdracht1ReceiptWeek1;
  */
 public class Main {
     public static void main(String[] args) {
-        Receipt receipt = new Receipt();
+        Receipt receipt = new Receipt(1, 0);
         receipt.addItem(new Item("Double room", 69.0));
         receipt.addItem(new Item("Diner", 29.0));
         receipt.addItem(new Item("Tourist tax", 1.99));

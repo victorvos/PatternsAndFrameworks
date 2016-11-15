@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Opdracht2Week1</OriginalElement>
+  <nodes>
+    <node x="200.0" y="0.0">Opdracht2Week1.Character</node>
+    <node x="442.0" y="445.0">Opdracht2Week1.Knife</node>
+    <node x="221.0" y="445.0">Opdracht2Week1.Axe</node>
+    <node x="0.0" y="553.0">Opdracht2Week1.GameSimulator</node>
+    <node x="147.0" y="196.0">Opdracht2Week1.Soldier</node>
+    <node x="311.0" y="196.0">Opdracht2Week1.Knight</node>
+    <node x="0.0" y="445.0">Opdracht2Week1.Sword</node>
+    <node x="471.0" y="196.0">Opdracht2Week1.Queen</node>
+    <node x="221.0" y="332.0">Opdracht2Week1.Weapon</node>
+    <node x="0.0" y="196.0">Opdracht2Week1.King</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Opdracht2Week1.Sword" target="Opdracht2Week1.Weapon">
+      <point x="0.0" y="-31.5" />
+      <point x="100.5" y="420.0" />
+      <point x="254.5" y="420.0" />
+      <point x="-67.0" y="31.5" />
+    </edge>
+    <edge source="Opdracht2Week1.Knife" target="Opdracht2Week1.Weapon">
+      <point x="0.0" y="-31.5" />
+      <point x="542.5" y="420.0" />
+      <point x="388.5" y="420.0" />
+      <point x="67.0" y="31.5" />
+    </edge>
+    <edge source="Opdracht2Week1.Axe" target="Opdracht2Week1.Weapon">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Opdracht2Week1.Queen" target="Opdracht2Week1.Character">
+      <point x="0.0" y="-45.5" />
+      <point x="541.0" y="166.0" />
+      <point x="375.0" y="166.0" />
+      <point x="75.0" y="73.0" />
+    </edge>
+    <edge source="Opdracht2Week1.Soldier" target="Opdracht2Week1.Character">
+      <point x="2.8421709430404007E-14" y="-45.5" />
+      <point x="219.00000000000003" y="176.0" />
+      <point x="275.0" y="176.0" />
+      <point x="-25.0" y="73.0" />
+    </edge>
+    <edge source="Opdracht2Week1.Knight" target="Opdracht2Week1.Character">
+      <point x="0.0" y="-45.5" />
+      <point x="381.0" y="176.0" />
+      <point x="325.0" y="176.0" />
+      <point x="25.0" y="73.0" />
+    </edge>
+    <edge source="Opdracht2Week1.King" target="Opdracht2Week1.Character">
+      <point x="0.0" y="-45.5" />
+      <point x="63.5" y="166.0" />
+      <point x="225.0" y="166.0" />
+      <point x="-75.0" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="-20.63492063492049" y="284.0595238095239" />
+  <SelectedNodes>
+    <node>Opdracht2Week1.Character</node>
+    <node>Opdracht2Week1.Knife</node>
+    <node>Opdracht2Week1.Axe</node>
+    <node>Opdracht2Week1.GameSimulator</node>
+    <node>Opdracht2Week1.Soldier</node>
+    <node>Opdracht2Week1.Knight</node>
+    <node>Opdracht2Week1.Sword</node>
+    <node>Opdracht2Week1.Queen</node>
+    <node>Opdracht2Week1.Weapon</node>
+    <node>Opdracht2Week1.King</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

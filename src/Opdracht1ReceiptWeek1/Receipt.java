@@ -9,16 +9,14 @@ import java.util.List;
  */
 public class Receipt extends Item {
     public int ID;
-    public Date datum;
     public Payment payment;
     public List<Item> items;
     public double totaal;
 
-    public Receipt(int ID, Date datum, double totaal){
+    public Receipt(int ID, double totaal){
         this.ID = ID;
-        this.datum = datum;
         this.totaal = totaal;
-        items = new ArrayList<Item>;
+        this.items = new ArrayList<Item>();
     }
 
     public void addPayment(Payment p){
@@ -29,14 +27,13 @@ public class Receipt extends Item {
         items.add(item);
     }
 
-    public double getTotaal{}{
+    public double getTotaal(){
         this.totaal = 0;
         for (Item i : items) {
             totaal += i.getPrijs();
         }
+        return totaal;
     }
-
-    public String Chechout
 
 
 }

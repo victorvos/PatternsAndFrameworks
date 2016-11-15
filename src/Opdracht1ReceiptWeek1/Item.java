@@ -12,6 +12,10 @@ public class Item {
         this.prijs = prijs;
     }
 
+    public Item(){
+
+    }
+
     public double getPrijs(){
         return prijs;
     }
